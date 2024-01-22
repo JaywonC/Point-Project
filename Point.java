@@ -26,12 +26,12 @@ public class Point {
         if (x == p1.getX() && x == p2.getX()) {
             return true;
         }
-    double num = 0.001;
+    double TOLERANCE = 0.01;
         // Check for slope equality within a tolerance
         double slope1 = (double) (p1.getY() - y) / (p1.getX() - x);
         double slope2 = (double) (p2.getY() - y) / (p2.getX() - x);
 
-    return Math.abs(slope1 - slope2) < num;
+    return Math.abs(slope1 - slope2) < TOLERANCE;
 
     }
 

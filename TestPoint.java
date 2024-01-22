@@ -6,7 +6,13 @@ public class TestPoint {
         Point p4 = new Point(3, -10);
         Point p5 = new Point(3, 10);
         Point p6 = new Point(6, 8);
-
+        System.out.println("p1: " + "x=" + p1.getX() + ", " + "y=" +p1.getY());
+        System.out.println("p2: " + "x=" + p2.getX() + ", " + "y=" +p2.getY());
+        System.out.println("p3: " + "x=" + p3.getX() + ", " + "y=" +p3.getY());
+        System.out.println("p4: " + "x=" + p4.getX() + ", " + "y=" +p4.getY());
+        System.out.println("p4: " + "x=" + p5.getX() + ", " + "y=" +p5.getY());
+        System.out.println("p4: " + "x=" + p6.getX() + ", " + "y=" +p6.getY());
+        System.out.println("The points:");
         // Testing manhattanDistance
         System.out.println("Testing manhattanDistance:");
         System.out.println("p2 to p3: " + p2.manhattanDistance(p3));
